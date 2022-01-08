@@ -1,0 +1,131 @@
+body {
+     font-family: 'Moon Dance', cursive;
+     background: linear-gradient(to right, #ff416c, #ff4b2b);
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+}
+
+.todo {
+     width: 100%;
+     text-align: center;
+     margin-top: 10%;
+
+}
+
+.container {
+     width: 100%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+
+.todos {
+     display: inline-block;
+     vertical-align: middle;
+     height: 70px;
+     width: 60%;
+     border-collapse: collapse;
+     margin: 5px;
+     text-align: center;
+     background-color: white;
+
+}
+
+#toDoContainer {
+     margin-top: 2%;
+     vertical-align: middle;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     height: 50vh;
+
+
+}
+
+input {
+     font-family: 'Moon Dance', cursive;
+     width: 50%;
+     font-size: 42px;
+}
+
+button {
+     width: 70px;
+     font-size: 50px;
+}
+
+p {
+     word-wrap: break-word;
+     text-overflow: ellipsis;
+     float: left;
+     font-size: 25px;
+     margin-top: 15px;
+     margin-left: 19px;
+}
+
+.check {
+     float: right;
+     color: rgb(59, 219, 59);
+     font-size: 40px;
+     cursor: pointer;
+     margin-right: 10px;
+}
+
+.checkdone {
+     float: right;
+     color: gray;
+     font-size: 40px;
+     cursor: pointer;
+     margin-right: 10px;
+}
+
+.trash {
+     float: right;
+     color: red;
+     font-size: 40px;
+     cursor: pointer;
+     margin-right: 10px;
+
+}
+
+.wrapper {
+
+     vertical-align: middle;
+     text-align: center;
+     width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+
+     .todos {
+          height: 15%;
+          width: 80%;
+     }
+
+     p {
+          margin-top: 10px;
+     }
+
+     .trash {
+          font-size: 30px;
+     }
+
+     .check {
+          font-size: 30px;
+     }
+
+     .checkdone {
+          font-size: 30px;
+     }
+
+     input {
+          font-family: 'Moon Dance', cursive;
+          width: 60%;
+          font-size: 32px;
+     }
+
+     button {
+          width: 50px;
+          font-size: 40px;
+     }
+}
